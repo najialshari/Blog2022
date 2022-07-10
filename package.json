@@ -1,6 +1,6 @@
 {
   "name": "source",
-  "home":"https://najialshari.github.io/Blog2022",
+  "homepage":"https://najialshari.github.io/Blog2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
