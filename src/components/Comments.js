@@ -18,9 +18,9 @@ const Comments = () => {
 
     return (
 
-        <div className="comments col-4 ps-3" style={{ height: commentsHeight + 'px' }}>
-            {comments.length !== 0 ?
-                <>
+        <>
+            {comments.length !== 0 ? 
+                <div className="comments col-4 ps-3" style={{ height: commentsHeight + 'px' }}>
                     <h4 className="mb-4">Latest Comments</h4>
                     {comments.map((comment, index) => (
 
@@ -35,13 +35,13 @@ const Comments = () => {
                         </div>
                     )
                     )}
-                </>
+                </div>
                 : <div className="col-4 text-center p-5 text-primary">
                     <div className="spinner-border" role='status'></div>
                 </div>
             }
-        </div>
-
+        
+</>
     )
 }
 export default Comments
