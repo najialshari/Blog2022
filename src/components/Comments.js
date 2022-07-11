@@ -36,7 +36,7 @@ const Comments = () => {
                     )
                     )}
                 </>
-                : <div className="col-4 text-center text-primary">
+                : <div className="col-4 text-center p-5 text-primary">
                     <div className="spinner-border" role='status'></div>
                 </div>
             }

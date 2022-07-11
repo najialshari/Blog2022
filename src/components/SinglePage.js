@@ -14,6 +14,7 @@ const SinglePage = () => {
             .then(responce => responce.json())
             .then(result => setBlogs(result))
             .catch("Error Blogs...")
+  // eslint-disable-next-line react-hooks/exhaustive-deps      
     }, [])
 
     return (
